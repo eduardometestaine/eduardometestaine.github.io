@@ -2,8 +2,8 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;  
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
 }
 
 /* Variables */
@@ -41,11 +41,10 @@
   flex: 1 1 80%;
   min-height: 100vh;
   background-color: var(--about-bg-color);
-  padding: 30px;
+  padding: 50px;
 }
 
 /* Bio container */
-
 #bio-container h2 {
   margin-bottom: 25px;
 }
@@ -110,6 +109,11 @@
 /* about container */
 #name {
   font-size: 42px;
+  margin-bottom: 15px;
+}
+
+#title {
+  font-size: 24px;
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -190,8 +194,8 @@
 
   #bio-container {
     min-height: auto;
-     border-right: none;
-     border-bottom: 5px solid var(--bio-border-color);
+    border-right: none;
+    border-bottom: 5px solid var(--bio-border-color);
   }
 
   #bio-container h2{
