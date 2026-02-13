@@ -8,10 +8,10 @@
 
 /* Variables */
 :root {
-  --main-color: #54b689;
-  --main-text-color: #fff;
+  --main-color: #54B689;
+  --main-text-color: #FFF;
   --border-color: #999;
-  --bio-bg-color: #1e2a3a;
+  --bio-bg-color: #1E2A3A;
   --bio-border-color: #293544;
   --about-bg-color: #111821;
 }
@@ -50,7 +50,7 @@
 }
 
 #bio-container p {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #bio-container #welcome-text {
@@ -74,7 +74,7 @@
 }
 
 #social-container li {
-  margin: 1 1 0;
+  flex: 1 1 0;
   max-width: 60px;
 }
 
@@ -156,7 +156,7 @@
 #skills-section-title {
   border-top: 1px solid var(--border-color);
   padding-top: 20px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 32px;
 }
 
@@ -182,11 +182,11 @@
 
 .skills-box i {
   font-size: 45px;
-  margin: 10px;
+  margin-right: 10px;
 }
 
 /* Mobile */
-@media (max-width: 450px) {
+@media(max-width: 450px) {
   
   #container {
     flex-direction: column;
@@ -198,7 +198,7 @@
     border-bottom: 5px solid var(--bio-border-color);
   }
 
-  #bio-container h2{
+  #bio-container h2 {
     display: none;
   }
 
