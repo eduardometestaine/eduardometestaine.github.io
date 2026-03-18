@@ -3,77 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduardo Metestaine | DevOps</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Portfólio | Eduardo Metestaine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="main-container">
-        <aside id="bio-container">
-            <h2>Eduardo Metestaine</h2>
-            <img id="bio-image" src="img/profile.jpeg" alt="Eduardo Metestaine">
-            <p>Olá, meu nome é Eduardo Metestaine e sou <span class="highlight">DevOps Engineer</span>.</p>
-            <p id="welcome-text">Seja bem-vindo!</p>
-            
-            <ul id="social-container">
-                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
-            </ul>
-            
-            <div id="email-container">
-                <ion-icon name="mail-outline"></ion-icon>
-                <a href="mailto:eduardo.metestaine@gmail.com">eduardo.metestaine@gmail.com</a>
-            </div>
-        </aside>
 
-        <section id="about-container">
-            <h1 id="name">Eduardo Metestaine</h1>
-            <p id="title">DevOps Engineer</p>
+    <aside id="bio-container">
+        <div id="bio-inner">
+            <img id="bio-image" src="img/profile.jpeg" alt="Eduardo Metestaine">
+            <h2>Eduardo Metestaine</h2>
+            <p id="bio-role">DevOps Engineer</p>
+            <ul id="social-container">
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>
+            <div id="email-box">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:eduardo.metestaine@gmail.com">E-mail</a>
+            </div>
+        </div>
+    </aside>
+
+    <main id="about-container">
+        <section id="content">
+            <h1 id="name">Eduardo <span class="highlight">Metestaine</span></h1>
+            <p id="title">Cloud & Infrastructure Specialist</p>
             
-            <p class="description">Sou um profissional apaixonado por tecnologia, com experiência em DevOps e uma sólida formação em Computação em Nuvem. <span class="highlight">Tenho um histórico comprovado de implementação de soluções eficientes e escaláveis.</span></p>
+            <p class="description">Sou um profissional apaixonado por tecnologia, com experiência em DevOps e uma sólida formação em Computação em Nuvem. <span class="highlight-text">Implemento soluções eficientes e escaláveis utilizando as melhores práticas do setor.</span></p>
             
             <p class="description">Atuo com AWS, Terraform, Kubernetes e pipelines de CI/CD.</p>
             
-            <a href="#" id="btn-projects">
-                <ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span>
-            </a>
+            <div id="buttons-container">
+                <a href="#" id="btn-projects">Ver Projetos</a>
+            </div>
 
-            <h2 id="skills-section-title">Minhas Skills</h2>
-            <p class="description">Conheça as tecnologias que domino:</p>
-
+            <h2 class="section-title">Minhas Skills</h2>
             <div id="skills-grid">
-                <div class="skills-box">
-                    <p class="skills-title">Cloud</p>
-                    <i class="devicons devicon-amazonwebservices-plain-wordmark colored"></i>
+                <div class="skill-card">
+                    <p>Cloud</p>
+                    <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
                 </div>
-                <div class="skills-box">
-                    <p class="skills-title">IaC</p>
-                    <i class="devicons devicon-terraform-plain colored"></i>
+                <div class="skill-card">
+                    <p>IaC</p>
+                    <i class="devicon-terraform-plain colored"></i>
                 </div>
-                <div class="skills-box">
-                    <p class="skills-title">CI/CD</p>
-                    <div class="icons-group">
-                        <i class="devicons devicon-githubactions-plain colored"></i>
-                        <i class="devicons devicon-jenkins-plain colored"></i>
-                    </div>
+                <div class="skill-card">
+                    <p>Containers</p>
+                    <i class="devicon-docker-plain colored"></i>
                 </div>
-                <div class="skills-box">
-                    <p class="skills-title">Containers</p>
-                    <div class="icons-group">
-                        <i class="devicons devicon-docker-plain colored"></i>
-                        <i class="devicons devicon-kubernetes-plain colored"></i>
-                    </div>
+                <div class="skill-card">
+                    <p>Orchestration</p>
+                    <i class="devicon-kubernetes-plain colored"></i>
                 </div>
-                <div class="skills-box">
-                    <p class="skills-title">Monitoring</p>
-                    <i class="devicons devicon-datadog-original-wordmark colored"></i>
+                <div class="skill-card">
+                    <p>CI/CD</p>
+                    <i class="devicon-jenkins-plain colored"></i>
                 </div>
             </div>
         </section>
-    </div>
+    </main>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
